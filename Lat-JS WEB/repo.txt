@@ -1,0 +1,11 @@
+Nama Repository:
+web-portofolio
+
+Branch:
+Web-JS
+
+Branch sebelumnya:
+Web-Bootstrap
+
+GitHub:
+https://github.com/danielkristian07/web-portofolio
