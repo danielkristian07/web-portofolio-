@@ -1,0 +1,278 @@
+/* ================================================== 
+   PENGATURAN BODY 
+   ================================================== */ 
+ 
+body { 
+ 
+    /* Jenis tulisan */ 
+    font-family: Arial, sans-serif; 
+ 
+} 
+
+
+/* ==================================================
+   LOGO NAVBAR
+   ================================================== */
+
+/*
+   Membuat logo dan tulisan Portfolio
+   berada dalam satu baris.
+*/
+.logo-brand {
+
+    /* Logo dan tulisan dibuat sejajar */
+    display: flex;
+
+    /* Menyamakan posisi logo dan tulisan */
+    align-items: center;
+
+    /* Jarak antara logo dan Portfolio */
+    gap: 8px;
+
+}
+
+
+/*
+   Mengatur ukuran logo di Navbar
+*/
+.navbar-logo {
+
+    /* Lebar logo */
+    width: 35px;
+
+    /* Tinggi logo */
+    height: 35px;
+
+    /*
+       Agar logo tidak gepeng
+       dan tetap mempertahankan bentuk aslinya.
+    */
+    object-fit: contain;
+
+}
+
+
+/* ================================================== 
+   HERO 
+   ================================================== */ 
+ 
+.hero-section { 
+ 
+    /* Tinggi minimum Hero */ 
+    min-height: 500px; 
+ 
+    /* Memasukkan gambar sebagai background */ 
+    background-image: url("background.jpg"); 
+ 
+    /* Membuat gambar memenuhi seluruh area */ 
+    background-size: cover; 
+ 
+    /* Menempatkan bagian tengah gambar */ 
+    background-position: center; 
+ 
+    /* Supaya gambar tidak berulang */ 
+    background-repeat: no-repeat; 
+
+    /* Warna tulisan */
+    color: white; 
+ 
+} 
+
+
+/* ================================================== 
+   FOTO PROFILE 
+   ================================================== */ 
+ 
+/* 
+    .profile-photo adalah class yang digunakan 
+    langsung pada foto profile. 
+*/ 
+.profile-photo { 
+ 
+    /* Lebar foto */ 
+    width: 180px; 
+ 
+    /* Tinggi foto */ 
+    height: 180px; 
+ 
+    /* Warna background jika gambar belum tampil */ 
+    background-color: #dee2e6; 
+ 
+    /* Membuat foto menjadi lingkaran */ 
+    border-radius: 50%; 
+ 
+    /* 
+        Agar gambar tidak gepeng 
+        dan memenuhi lingkaran. 
+    */ 
+    object-fit: cover; 
+ 
+    /* Garis putih di sekeliling foto */ 
+    border: 5px solid white; 
+ 
+    /* 
+        Memberikan sedikit bayangan 
+        agar foto terlihat lebih bagus. 
+    */ 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15); 
+ 
+} 
+
+
+/* ================================================== 
+   ICON SERVICES 
+   ================================================== */ 
+ 
+.service-icon { 
+ 
+    /* Ukuran icon */ 
+    font-size: 50px; 
+ 
+    /* Jarak bawah */ 
+    margin-bottom: 15px; 
+ 
+} 
+
+
+/* ================================================== 
+   CARD SERVICES 
+   ================================================== */ 
+ 
+.card { 
+ 
+    /* Animasi */ 
+    transition: 0.3s; 
+ 
+} 
+
+
+/* 
+    Ketika mouse diarahkan ke card, 
+    card akan sedikit naik. 
+*/ 
+.card:hover { 
+ 
+    /* Card sedikit naik */ 
+    transform: translateY(-5px); 
+ 
+} 
+
+
+/* ================================================== 
+   PERFORMANCE 
+   ================================================== */ 
+ 
+.performance-box { 
+ 
+    /* Warna background */ 
+    background-color: #e8d9ef; 
+ 
+    /* Jarak antara isi dengan tepi */ 
+    padding: 40px; 
+ 
+    /* Membuat sudut kotak melengkung */ 
+    border-radius: 15px; 
+ 
+} 
+
+
+/* ================================================== 
+   BENTUK GELOMBANG 
+   ================================================== */ 
+ 
+.wave { 
+ 
+    /* Lebar */ 
+    width: 100%; 
+ 
+    /* Tinggi */ 
+    height: 70px; 
+ 
+    /* Warna */ 
+    background-color: white; 
+ 
+    /* Garis */ 
+    border: 1px solid black; 
+ 
+    /* Membuat bentuk oval */ 
+    border-radius: 50%; 
+ 
+} 
+
+
+/* ================================================== 
+   RESPONSIVE 
+   ================================================== */ 
+ 
+/* 
+    Ketika ukuran layar kurang dari 768px 
+    atau biasanya tablet/HP, 
+    foto dibuat lebih kecil. 
+*/ 
+ 
+@media (max-width: 768px) { 
+ 
+    .profile-photo { 
+ 
+        /* Lebar foto pada layar kecil */ 
+        width: 150px; 
+ 
+        /* Tinggi foto pada layar kecil */ 
+        height: 150px; 
+ 
+        /* Jarak dari bagian atas */ 
+        margin-top: 30px; 
+ 
+    } 
+
+    /* 
+       Logo Navbar dibuat sedikit lebih kecil
+       pada layar tablet/HP.
+    */
+    .navbar-foto {
+
+        /* Lebar logo */
+        width: 20px;
+
+        /* Tinggi logo */
+        height: 20px;
+
+    }
+ 
+} 
+
+
+/* ================================================== 
+   RESPONSIVE HP KECIL 
+   ================================================== */ 
+ 
+/* 
+    Untuk HP dengan layar yang lebih kecil lagi. 
+*/ 
+@media (max-width: 480px) { 
+ 
+    .profile-photo { 
+ 
+        /* Foto dibuat semakin kecil */ 
+        width: 130px; 
+ 
+        /* Tinggi foto */ 
+        height: 130px; 
+ 
+    } 
+
+    /*
+       Logo Navbar dibuat lebih kecil
+       pada HP kecil.
+    */
+    .navbar-foto {
+
+        /* Lebar logo */
+        width: 20px;
+
+        /* Tinggi logo */
+        height: 20px;
+
+    }
+
+}

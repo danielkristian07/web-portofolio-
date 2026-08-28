@@ -1,0 +1,37 @@
+========================================
+INFORMASI REPOSITORY GITHUB
+========================================
+
+Nama       : Daniel Kristian Saputra
+NIM        : 20242015
+
+Nama Repository:
+Latihanpemrograman
+
+Link Repository:
+https://github.com/atmi-mekatronika/latihan-git
+
+Branch Utama:
+main
+
+Branch Pengembangan:
+Web-Bootstrap
+
+Branch Pengerjaan:
+Daniel
+
+========================================
+KETERANGAN
+========================================
+
+Repository ini digunakan untuk menyimpan
+dan mengembangkan website portofolio.
+
+Website dibuat menggunakan:
+- HTML
+- CSS
+- Bootstrap
+
+Branch Web-Bootstrap digunakan untuk
+pengerjaan latihan website portofolio
+menggunakan Bootstrap.
